@@ -1,0 +1,25 @@
+#To find the biggest number among a,b,c
+
+a = int(input())
+b = int(input())
+c = int(input())
+if c > a:
+    if c > b:
+        print("C is the largest")
+elif a > b:
+    if a > c:
+        print("A is the largest")
+elif b > a:
+    if b > c:
+        print("B is the largest")
+elif a == b:
+    if a > c:
+        print("A and B are the largest")
+elif a == c:
+    if a > b:
+        print("A and C are the largest")
+elif c == b:
+    if b > a:
+        print("B and C are the largest")
+else:
+    print("Number are equal")
