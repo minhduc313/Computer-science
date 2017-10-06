@@ -61,15 +61,52 @@ def vietnam():
     pen.forward(106.66)
     pen.right(90)
     pen.up()
-    pen.forward(48)
-    pen.down()
+    pen.forward(75)
     pen.begin_fill()
     for n in range(0,5):
         pen.fillcolor("yellow")
-        pen.forward()
+        pen.forward(96)
         pen.right(144)
     pen.end_fill()
-vietnam()
+def nagornokarabakh():
+    pen.penup()
+    for n in range (0,2):
+        pen.fillcolor("red")
+        pen.begin_fill()
+        pen.forward(240)
+        pen.left(90)
+        pen.forward(106.66)
+        pen.left(90)
+        pen.end_fill()
+    for n in range (0,2):
+        pen.fillcolor("blue")
+        pen.begin_fill()
+        pen.forward(240)
+        pen.left(90)
+        pen.forward(71.106)
+        pen.left(90)
+        pen.end_fill()
+    for n in range (0,2):
+        pen.fillcolor("yellow")
+        pen.begin_fill()
+        pen.forward(240)
+        pen.left(90)
+        pen.forward(35.55)
+        pen.left(90)
+        pen.end_fill()
+    pen.forward(240)
+    pen.left(90)
+    pen.forward(106.66)
+    pen.left(90)
+    for n in range(0,2):
+        pen.fillcolor("white")
+        pen.begin_fill()
+        pen.forward
+
+
+
+nagornokarabakh()
+
 
 
 time.sleep(5)
