@@ -1,15 +1,16 @@
-print("Catlinh = 1")
-print    ("Lathanh = 2")
-print   ("Thaiha = 3")
-print   ("Lang = 4")
-print  ("Thuongdinh = 5")
-print   ("Vanhdai3 = 6")
-print   ("Phungkhoang = 7")
-print   ("Vanquan = 8")
-print  ("Hadong = 9")
-print  ("Lakhe = 10")
-print  ("Vankhe = 11")
-print  ("Yennghia = 12")
+print("
+        catlinh = 1
+        lathanh = 2
+        thaiha = 3
+        Lang = 4
+        thuongdinh = 5
+        vanhdai3 = 6
+        phungkhoang = 7
+        vanquan = 8
+        hadong = 9
+        lakhe = 10
+        vankhe = 11
+        yennghia = 12")
 rates = 2000
 total = 0
 for n in range (0,1000000):
@@ -19,6 +20,7 @@ for n in range (0,1000000):
     if Destination == 1173:
         print ("Revenue=",total, "VND")
         break
+        time.sleep(10)
     else:
         price = abs(rates*(Destination-Depart))
         print ("Price=", price,"VND")
